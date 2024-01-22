@@ -13,7 +13,7 @@ public class AzureApplication {
 	public String message() {
 		return "congrats";
 	}
-		@GetMapping("/")
+	@GetMapping("/")
 	public String messages() {
 		return "started";
 	}
