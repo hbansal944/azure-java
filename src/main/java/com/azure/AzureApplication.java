@@ -18,6 +18,7 @@ public class AzureApplication {
 	MongoClient mongoClient = MongoDBConnection.createConnection();
     MongoDatabase database = mongoClient.getDatabase("himanshu");
 	
+	
 	  MongoCollection<Document> usersCollection = database.getCollection("users");
 	
 	
