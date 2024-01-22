@@ -37,12 +37,6 @@ public class AzureApplication {
 		return "started";
 	}
 
-	@GetMapping("/")
-	public String messages() {
-		return "started";
-	}
-	
-
 	public static void main(String[] args) {
 
  
