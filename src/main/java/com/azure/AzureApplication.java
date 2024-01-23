@@ -25,7 +25,7 @@ public class AzureApplication {
 	@GetMapping("/message")
 	public Document message() {
 	      // Query the "users" collection to retrieve the inserted document
-        Document retrievedUser = usersCollection.find(Filters.eq("name", "John Doe")).first();
+        Document retrievedUser = usersCollection.find(Filters.eq("name", "Himanshu Bansal")).first();
         System.out.println("Retrieved User: " + retrievedUser);
         mongoClient.close();
         
