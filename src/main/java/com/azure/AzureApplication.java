@@ -35,7 +35,7 @@ public class AzureApplication {
 	
 	@GetMapping("/")
 	public String start() {
-		return "started";
+		return "your deployed application is working.";
 	}
 
 	public static void main(String[] args) {
